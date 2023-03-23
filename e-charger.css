@@ -1,0 +1,320 @@
+.charge{
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+    font-weight: 500;
+    font-family: Arial;
+    color: white;
+    padding: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+    
+    transition: 0.5s;
+}
+.charge:hover{
+    background-color: #f44444;
+    ;
+}
+
+.apple{
+    background-color: grey;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px;
+    margin-right: 8px;
+    font-weight: 500;
+    font-family: Arial;
+    font-size: small;
+    cursor: pointer;
+}
+
+.Gplay{
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+    font-weight: 500;
+    font-family: Arial;
+    font-size: small;
+    color: white;
+    padding: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.fb,.twitter,.ig,.tg,.in{
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    color: rgb(33, 33, 33);
+    background-color: white;
+    font-size: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fb:hover,.twitter:hover,.ig:hover,.tg:hover,.in:hover{
+    border: none;
+    background-color: #f44444;
+    color: white;
+}
+
+p{
+    font-family: Arial;
+    line-height: 120%;
+}
+.topics{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.content{
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.bodycontent{
+    padding-top: 100px;
+}
+.aboutcontent{
+    display: flex;
+    flex-direction: column;;
+}
+
+hr{
+    width:100%;
+    margin-left: 280px;
+}
+
+.findcharger{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 211, 211);
+    height: 190px;
+    margin-bottom: 150px;
+}
+
+.fixed-header{
+    position: fixed;
+    width: 100%;
+}
+.header{
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f44444;
+    flex: 1;
+    height: 110px;
+}
+.logo{
+    font-family: Impact;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    color:#1b1b1b;
+}
+.logotxt{
+    font-family: Segoe Script;
+    margin-left: 70px;
+    margin-top: -10px;
+    color: #1b1b1b;
+}
+
+.container{  
+    text-align: center;
+    margin-bottom: 20px;
+}
+.findhead{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.findtxt{
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #666;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 980px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+.div1{
+    width: 220px;
+}
+.div2{
+    margin-left: 100px;
+    margin-top: 30px;
+    flex: 1;
+}
+.div3{
+    margin-top: 30px;
+    width: 250px;
+}
+
+.end{
+    margin-bottom: 100px; 
+    width: 100%;
+}
+
+
+.charger-type{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+/* .buybox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;
+    margin-bottom: 100px;
+} */
+.profile {
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-family: Arial;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.add{
+    background-color: rgb(33, 33, 33);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.add:hover{
+    opacity: 0.8;
+}
+
+.leaflet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(55, 55, 55);
+    height: 680px;
+    margin-bottom: 100px;
+    font-family: Arial;
+    color: white;
+}
+.leaf1,.leaf2,.leaf3{
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    justify-content: center;
+}
+
+.dll{
+    margin-top: 100px;
+    margin-left: 80px;
+    background-color: rgb(55, 55, 55);
+    border-color: white;
+    border-style: solid;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    margin-right: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.dll:hover{
+    background-color: white;
+    color:  rgb(55, 55, 55);
+}
+
+.hc-title{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+}
+.hc-topics{
+    font-weight: 400;
+    font-size: 18px;
+}
+.hc-content{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.install{
+    width: 1000px;
+    margin-left: 200px;
+    margin-bottom: 160px;
+}
+.light{
+    border-radius: 100px;
+    border: none;
+    color: rgb(33, 33, 33);
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.light:hover{
+    background-color: #3b3b3b;
+}
+.image{
+    display: inline-block;
+    border-style: solid;
+    border-color: #ededed;
+    border-width: 6px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+.title{
+    margin-left: 20px; 
+    padding-bottom: 20px;
+    vertical-align: middle;
+}
+.para{
+    margin-left: 40px;
+}
+
+.contact{
+    width: 100%;
+}
+.call{
+    margin-top: 50px; 
+    margin-bottom: 100px;
+    margin-left: 360px;
+}
+.ph{
+    width: 100px !important;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 100px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    color: rgb(33, 33, 33);
+    background-color: white;
+    font-size: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
